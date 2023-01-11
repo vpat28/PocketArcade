@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/Main_margin">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/p1icon"
+            android:background="@color/myred"
+            android:layout_width="@dimen/upper_buttons_width"
+            android:layout_height="@dimen/upper_buttons_width"
+            android:layout_margin="@dimen/upper_buttons_padding"
+            android:padding="@dimen/upper_buttons_padding">
+        </ImageButton>
+
+
+            <TextView
+                android:id="@+id/playername"
+                android:textSize="@dimen/name_text_size"
+                android:textColor="@color/black"
+                android:layout_marginTop="25dp"
+                android:layout_width="@dimen/Text_View_height"
+                android:layout_height="@dimen/Text_View_width">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/p2icon"
+                android:background="@color/mygreen"
+                android:layout_width="@dimen/upper_buttons_width"
+                android:layout_height="@dimen/upper_buttons_width"
+                android:layout_margin="@dimen/upper_buttons_padding"
+                android:padding="@dimen/upper_buttons_padding">
+            </ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="@dimen/bar_width"
+            android:layout_height="@dimen/bar_height"
+            android:layout_margin="@dimen/bar_margin"
+            android:layout_gravity="center"
+            android:max="@integer/bar_time">
+        </ProgressBar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableLayout
+            android:id="@+id/BigAssButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/Button1"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button2"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button3"
+                    style="@style/most_buttons">
+                </Button>
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/Button4"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button5"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button6"
+                    style="@style/most_buttons">
+                </Button>
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/Button7"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button8"
+                    style="@style/most_buttons">
+                </Button>
+                <Button
+                    android:id="@+id/Button9"
+                    style="@style/most_buttons">
+                </Button>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

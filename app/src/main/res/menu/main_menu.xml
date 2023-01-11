@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/reset"
+        android:title="@string/reset_string">
+    </item>
+    <item android:id="@+id/onesec"
+        android:title="@string/one_second_string">
+    </item>
+    <item android:id="@+id/twosec"
+        android:title="@string/two_second_string">
+    </item>
+    <item android:id="@+id/fivesec"
+        android:title="@string/five_second_string">
+    </item>
+    <item android:id="@+id/tensec"
+        android:title="@string/ten_second_string">
+    </item>
+</menu>

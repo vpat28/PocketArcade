@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_top_margin">50dp</dimen>
+    <dimen name="input_box_width">250dp</dimen>
+    <dimen name="input_box_length">50dp</dimen>
+    <dimen name="image_button_dimensions">60dp</dimen>
+    <dimen name="play_button_height">100dp</dimen>
+    <dimen name="play_button_width">175dp</dimen>
+    <dimen name="play_button_margin">100dp</dimen>
+    <dimen name="play_button_text_size">35sp</dimen>
+    <dimen name="name_text_size">25sp</dimen>
+    <integer name="upper_area_weight">33</integer>
+    <integer name="lower_area_weight">66</integer>
+    <dimen name="top_button_left_margin">30dp</dimen>
+    <dimen name="lower_button_width">50dp</dimen>
+    <dimen name="lower_right_button_padding">20dp</dimen>
+    <dimen name="upper_buttons_width">60dp</dimen>
+    <dimen name = "upper_buttons_padding">16dp</dimen>
+    <dimen name = "bar_height">20dp</dimen>
+    <dimen name = "bar_width">375dp</dimen>
+    <dimen name = "bar_margin">16dp</dimen>
+    <dimen name = "Main_margin">16dp</dimen>
+    <dimen name = "Sample_Weight">2</dimen>
+    <dimen name = "Second_Margin">0</dimen>
+    <dimen name="Text_View_height">200dp</dimen>
+    <dimen name="Text_View_width">50dp</dimen>
+    <integer name="bar_click_time">500</integer>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Tic Tac Toc</string>
+    <string name="play_string">Play!</string>
+    <string name="reset_string">Reset</string>
+    <string name="Player1name">Player 1</string>
+    <string name="Player2name">Player 2</string>
+    <string name="entername1">Enter player 1 name</string>
+    <string name="entername2">Enter player 2 name</string>
+    <string name="one_second_string">1 Second</string>
+    <string name="two_second_string">2 Seconds</string>
+    <string name="five_second_string">5 Seconds</string>
+    <string name="ten_second_string">10 Seconds</string>
+</resources>

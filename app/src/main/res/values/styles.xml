@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="most_buttons">
+  <item name="android:layout_width">70dp</item>
+    <item name="android:layout_height">70dp</item>
+    <item name="android:foreground">@color/black</item>
+  <item name="android:onClick">gameClick</item>
+  <item name="android:layout_margin">1dp</item>
+</style>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_score">5</integer>
+    <integer name="bar_time">8000</integer>
+</resources>
